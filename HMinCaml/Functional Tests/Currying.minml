@@ -1,0 +1,4 @@
+(* 13 *)
+let rec add x y = x + y in
+let addTen = add 10 in
+(addTen 3)

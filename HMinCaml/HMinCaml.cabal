@@ -1,0 +1,46 @@
+name: HMinCaml
+version: 0.1
+cabal-version: -any
+license: AllRightsReserved
+license-file: ""
+copyright:
+maintainer:
+build-depends: HUnit ==1.1, base -any, ghc ==6.6, haskell98 ==1.0,
+               mtl ==1.0, parsec ==2.0
+stability:
+homepage:
+package-url:
+synopsis:
+description:
+category:
+author:
+tested-with:
+data-files:
+extra-source-files:
+extra-tmp-files:
+ 
+executable: HMinCaml
+main-is: Main.hs
+buildable: True
+cc-options:
+ld-options:
+frameworks:
+c-sources:
+extensions:
+extra-libraries:
+extra-lib-dirs:
+includes:
+install-includes:
+include-dirs:
+hs-source-dirs: src
+other-modules: HMinCaml.ClosureConversion HMinCaml.Common
+               HMinCaml.GenerateCode HMinCaml.InferTypes HMinCaml.KNormalize
+               HMinCaml.Parser HMinCaml.Simplify HMinCaml.VariableLowering
+               Tests.ClosureConversion Tests.Common Tests.GenerateCode
+               Tests.InferTypes Tests.KNormalize Tests.Parser Tests.Simplify
+               Tests.VariableLowering Main
+ghc-prof-options:
+ghc-options:
+hugs-options:
+nhc-options:
+jhc-options:

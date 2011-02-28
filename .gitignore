@@ -1,0 +1,13 @@
+*.hi
+*.o
+*.exe
+.setup-config
+HMinCaml/Functional Tests/*.asm
+
+HMinCaml/dist/build/
+
+*.suo
+*.resharper.user
+*.resharper
+.svn
+_ReSharper.*/

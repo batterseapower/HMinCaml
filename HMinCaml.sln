@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{C0AB5119-7A36-4E57-9FD6-C9DBBD6E8BCE}") = "HMinCaml", "HMinCaml\HMinCaml.cabal", "{AC6AF6CC-E5D8-4581-AF97-8CD7300C5B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC6AF6CC-E5D8-4581-AF97-8CD7300C5B2B}.Debug|Default.ActiveCfg = Debug
+		{AC6AF6CC-E5D8-4581-AF97-8CD7300C5B2B}.Debug|Default.Build.0 = Debug
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

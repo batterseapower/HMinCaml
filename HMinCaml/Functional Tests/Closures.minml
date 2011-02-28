@@ -1,0 +1,7 @@
+(* 9 *)
+let rec add x y = x + y 
+in let rec getAddTenFunction junk =
+  let addWhat = 10 
+  in add addWhat 
+in let addTen = getAddTenFunction (-1)
+in addTen (-1)

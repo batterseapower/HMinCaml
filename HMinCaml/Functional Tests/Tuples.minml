@@ -1,0 +1,6 @@
+(* (-2, 1, 2, 3, -1) *)
+let rec tuple a b c = 
+  let aPair = (-1, -2)
+  in let (firstElem, secondElem) = aPair
+  in (secondElem, a, b, c, firstElem)
+in tuple 1 2 3
